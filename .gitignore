@@ -1,0 +1,27 @@
+# Environment variables
+.env
+
+# Virtual Environment
+backend/venv/
+venv/
+env/
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*$py.class
+backend/db.sqlite3
+db.sqlite3
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Frontend (if not covered by frontend/.gitignore)
+frontend/node_modules/
+frontend/dist/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
